@@ -14,12 +14,12 @@
     div { margin-top: 20px; }
     fieldset { display: block; background-color: #000; padding: 10px; }
     .inline { display: inline-block; margin-top: 0; }
-    h3 { padding-bottom: 30px; }
+    .sectionHeader { padding-bottom: 14px; border: 1px solid #A2B3C4; border-width: 0 0 1px 0; margin-bottom: 20px; }
     .square { height: 100px; width: 100px; border: 1px solid black; display: inline-block; margin: 0 10px 10px 0; }
     .square.primary { background-color: #00657D; }
-    .square.primaryLight { background-color: #12798F; }
+    .square.primaryLight { background-color: #44B0BE; }
     .square.secondary { background-color: #F4623B; }
-    .square.secondaryMedium { background-color: #F1876A; }
+    .square.secondaryMedium { background-color: #FB7A57; }
     .square.secondaryLight { background-color: #EDB3A3; }
     .square.cool { background-color: #56C5D0; }
     .square.coolLight { background-color: #A5DFE1; }
@@ -44,7 +44,7 @@
 <body>
   <div class="contentWrapper">
     <div>
-      <h3>Headers & Paragrphs</h3>
+      <h3 class="sectionHeader">Headers & Paragrphs</h3>
       <h1 class="header1">Header 1</h1>
       <h2>Header 2</h2>
       <h3>Header 3</h3>
@@ -52,33 +52,34 @@
       <h5>Header 5</h5>
       <h6>Header 6</h6>
       <h6 class="header6 light">Header 6 Light</h6>
-      <p>Cupcake ipsum dolor. Sit amet candy. Chocolate bar gummi bears pastry jujubes toffee. Lemon drops marzipan apple pie.</p>
+      <p>Cupcake ipsum dolor sit amet oat cake muffin macaroon gummies. Icing donut gummies toffee lollipop. Sugar plum chocolate bar pie cheesecake croissant gingerbread. Oat cake tootsie roll chupa chups candy canes cookie muffin.</p>
+      <p>Liquorice cookie halvah pudding ice cream toffee cotton candy. Wafer wafer chocolate bar danish jelly croissant chocolate bar gummies. Halvah icing pudding. Powder pie sesame snaps jujubes cheesecake.</p>
     </div>
     <div>
-      <h3>Buttons Types</h3>
-      <a href="">Link look</a>
+      <h3 class="sectionHeader">Buttons Types</h3>
+      <a href="">Link look</a> &nbsp;&nbsp;&nbsp;
+      <a href="" class="linkLookSpecial">Special link look</a> &nbsp;&nbsp;&nbsp;
       <a href="" class="buttonLook primary">Primary Button Look</a>
       <a href="" class="buttonLook secondary">Secondary Button Look</a>
     </div>
     <div>
-      <h3>Buttons Sizes</h3>
+      <h3 class="sectionHeader">Buttons Sizes</h3>
       <a href="" class="buttonLook primary smButton">Small Primary Button Look</a>
       <a href="" class="buttonLook primary">Primary Button Look</a>
       <a href="" class="buttonLook primary lrgButton">Large Primary Button Look</a>
       <a href="" class="buttonLook special lrgButton">Large Special Button Look</a>
     </div>
     <div>
-      <h3>Forms</h3>
+      <h3 class="sectionHeader">Forms</h3>
       <div>
         <feildset>
-          <div class="inline">
+          <div>
             <label>Label</label>
-            <input type="text" placeholder="Enter value...">
+            <input type="text" placeholder="Enter value..."><br>
+            <input type="button" class="primary" value="Primary Input Button">
           </div>
         </fieldset>
-        <feildset>
-          <input type="text" class="noLabel" placeholder="Enter value...">
-        </fieldset>
+
         <feildset>
           <div class="inline">
             <label>Label</label>
@@ -87,11 +88,21 @@
           <div class="inline">
             <input type="text" class="noLabelPush" placeholder="Enter value...">
           </div>
+          <br>
+          <button type="button" class="primary">Primary Button</button>
+          <button type="button" class="secondary">Secondary Button</button>
+        </fieldset>
+
+        <feildset>
+          <div>
+            <input type="text" class="noLabel" placeholder="Search...">
+            <button type="button" class="primary" disabled>Dispabled Primary Button</button>
+          </div>
         </fieldset>
       </div>
     </div>
     <div>
-      <h3>Colors</h3>
+      <h3 class="sectionHeader">Colors</h3>
       <div class="square primary">
       </div>
       <div class="square primaryLight">

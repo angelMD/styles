@@ -12,7 +12,7 @@ input[type="text"] {
   border: 1px solid $neutralDark;
   @include border-radius($smRadius);
   padding: $medPaddding;
-  margin-top: $smSpacing;
+  margin: 0 0 $medSpacing 0;
 
   &.noLabel {
     margin-top: none;
@@ -22,4 +22,46 @@ input[type="text"] {
     margin-top: $lrgSpacing;
     margin-left: $smSpacing;
   }
+}
+
+input[type="button"],
+button[type="button"] {
+  font-family: 'Assistant-Bold', sans-serif;
+  padding: $medPaddding;
+  white-space: nowrap;
+  margin-right: $smSpacing;
+
+  &.disabled {
+    opacity: $disabled;
+  }
+
+  &:hover {
+    text-decoration: none;
+    cursor: hand;
+  }
+
+  &.primary {
+    background-color: $primary;
+    border: 2px solid $primary;
+    color: $white;
+
+      &:hover {
+        background-color: $primaryLight;
+        border: 2px solid $primaryLight;
+      }
+    }
+  &.secondary {
+    background-color: transparent;
+    border: 2px solid $primary;
+    color: $primary;
+
+    &:hover {
+      color: $primaryLight;
+      border: 2px solid $primaryLight;
+    }
+  }
+}
+
+button[type="button"]:disabled {
+  opacity: $disabled;
 }

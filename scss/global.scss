@@ -13,7 +13,7 @@ body {
 
 // fonts
 h1 {
-  font-family: 'Assistant-Light', sans-serif;
+  font-family: 'Assistant-ExtraLight', sans-serif;
   font-size: 4.1em;
   line-height: 1.0em;
 }
@@ -42,7 +42,7 @@ label {
   font-family: 'Montserrat-Light', sans-serif;
   letter-spacing: .25em;
   text-transform: uppercase;
-  line-height: 1.8em;
+  line-height: 2.5em;
 }
 p,
 li,
@@ -52,7 +52,8 @@ button,
 input {
   font-family: 'Assistant', sans-serif;
   font-size: 1.6em;
-  line-height: 2.1em;
+  line-height: 1.6em;
+  padding-bottom: 1.0em;
 }
 
 // font styles
@@ -77,10 +78,14 @@ a {
     text-decoration: underline;
   }
 
+  &.linkLookSpecial {
+    color: $secondary;
+  }
+
   &.buttonLook {
     font-family: 'Assistant-Bold', sans-serif;
     padding: $medPaddding;
-    margin: $smSpacing $medSpacing;
+    margin: $smSpacing $medSpacing $smSpacing 0;
     white-space: nowrap;
 
     &:hover {
@@ -112,6 +117,11 @@ a {
       background-color: none;
       border: 2px solid $primary;
       color: $primary;
+
+      &:hover {
+        color: $primaryLight;
+        border: 2px solid $primaryLight;
+      }
     }
 
     &.special {
