@@ -63,7 +63,7 @@ input[type="text"] {
 input[type="button"],
 button[type="button"] {
   font-family: 'Assistant-Bold', sans-serif;
-  padding: 0.55em;
+  padding: 0.55em 0.75em;
   white-space: nowrap;
   margin-right: 0.5em; }
   input[type="button"].disabled,
@@ -159,7 +159,7 @@ a {
     color: #F4623B; }
   a.buttonLook {
     font-family: 'Assistant-Bold', sans-serif;
-    padding: 0.55em;
+    padding: 0.55em 0.75em;
     margin: 0.5em 1.8em 0.5em 0;
     white-space: nowrap; }
     a.buttonLook:hover {

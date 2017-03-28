@@ -19,7 +19,7 @@ input[type="text"] {
 input[type="button"],
 button[type="button"] {
   font-family: 'Assistant-Bold', sans-serif;
-  padding: 0.55em;
+  padding: 0.55em 0.75em;
   white-space: nowrap;
   margin-right: 0.5em; }
   input[type="button"].disabled,

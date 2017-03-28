@@ -27,7 +27,7 @@ input[type="text"] {
 input[type="button"],
 button[type="button"] {
   font-family: 'Assistant-Bold', sans-serif;
-  padding: $medPaddding;
+  padding: $medPaddding $lrgPaddding;
   white-space: nowrap;
   margin-right: $smSpacing;
 
