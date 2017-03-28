@@ -9,6 +9,31 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/global.css">
+  <style>
+    div { margin-top: 20px; }
+    fieldset { display: block; background-color: #000; padding: 10px; }
+    .inline { display: inline-block; margin-top: 0; }
+    h3 { padding-bottom: 30px; }
+    .square { height: 100px; width: 100px; border: 1px solid black; display: inline-block; margin: 0 10px 10px 0; }
+    .square.primary { background-color: #00657D; }
+    .square.primaryLight { background-color: #12798F; }
+    .square.secondary { background-color: #F4623B; }
+    .square.secondaryMedium { background-color: #F1876A; }
+    .square.secondaryLight { background-color: #00657D; }
+    .square.cool { background-color: #56C5D0; }
+    .square.coolLight { background-color: #A5DFE1; }
+    .square.neutralDark { background-color: #A2B3C4; }
+    .square.neutral { background-color: #EDF0F4; }
+    .square.neutralLight { background-color: #F7F8F8; }
+    .square.white { background-color: #fff; }
+    .square.black { background-color: #111; }
+    .square.success { background-color: #ADEDB0; }
+    .square.sucessLight { background-color: #DEF8DF; }
+    .square.error { background-color: #FA3058; }
+    .square.errorLight { background-color: #FC839B; }
+
+
+  </style>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,15 +41,88 @@
 </head>
 
 <body>
-  <h1 class="header1">Header 1</h1>
-  <h2>Header 2</h2>
-  <h3>Header 3</h3>
-  <h4>Header 4</h4>
-  <h5>Header 5</h5>
-  <h6>Header 6</h6>
-  <h6 class="header6 light">Header 6 Light</h6>
-  <p>Cupcake ipsum dolor. Sit amet candy. Chocolate bar gummi bears pastry jujubes toffee. Lemon drops marzipan apple pie.</p>
-  <a href="" class="primary">Button Look</a>
+  <div>
+    <h3>Headers & Paragrphs</h3>
+    <h1 class="header1">Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+    <h6 class="header6 light">Header 6 Light</h6>
+    <p>Cupcake ipsum dolor. Sit amet candy. Chocolate bar gummi bears pastry jujubes toffee. Lemon drops marzipan apple pie.</p>
+  </div>
+  <div>
+    <h3>Buttons Types</h3>
+    <a href="">Link look</a>
+    <a href="" class="buttonLook primary">Primary Button Look</a>
+    <a href="" class="buttonLook secondary">Secondary Button Look</a>
+  </div>
+  <div>
+    <h3>Buttons Sizes</h3>
+    <a href="" class="buttonLook primary smButton">Small Primary Button Look</a>
+    <a href="" class="buttonLook primary">Primary Button Look</a>
+    <a href="" class="buttonLook primary lrgButton">Large Primary Button Look</a>
+    <a href="" class="buttonLook special lrgButton">Large Special Button Look</a>
+  </div>
+  <div>
+    <h3>Forms</h3>
+    <div>
+      <feildset>
+        <div class="inline">
+          <label>Label</label>
+          <input type="text" placeholder="Enter value...">
+        </div>
+      </fieldset>
+      <feildset>
+        <input type="text" class="noLabel" placeholder="Enter value...">
+      </fieldset>
+      <feildset>
+        <div class="inline">
+          <label>Label</label>
+          <input type="text" placeholder="Enter value...">
+        </div>
+        <div class="inline">
+          <input type="text" class="noLabelPush" placeholder="Enter value...">
+        </div>
+      </fieldset>
+    </div>
+  </div>
+  <div>
+    <h3>Colors</h3>
+    <div class="square primary">
+    </div>
+    <div class="square primaryLight">
+    </div>
+    <div class="square secondary">
+    </div>
+    <div class="square secondaryMedium">
+    </div>
+    <div class="square secondaryLight">
+    </div>
+    <div class="square cool">
+    </div>
+    <div class="square coolLight">
+    </div>
+    <div class="square neutralDark">
+    </div>
+    <div class="square neutral">
+    </div>
+    <div class="square neutralLight">
+    </div>
+    <div class="square white">
+    </div>
+    <div class="square black">
+    </div>
+    <div class="square success">
+    </div>
+    <div class="square sucessLight">
+    </div>
+    <div class="square error">
+    </div>
+    <div class="square errorLight">
+    </div>
+  </div>
   <!-- <script src="js/scripts.js"></script> -->
 </body>
 </html>

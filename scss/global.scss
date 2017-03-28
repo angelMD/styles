@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'variables';
 @import 'fonts';
+@import 'forms';
 
 
 
@@ -14,12 +15,14 @@ body {
 h1 {
   font-family: 'Assistant-Light', sans-serif;
   font-size: 4.1em;
+  line-height: 1.0em;
 }
 h2,
 h3,
 h4,
 h5 {
   font-family: 'Assistant-Bold', sans-serif;
+  line-height: 1.6em;
 }
 h2 {
   font-size: 3.2em;
@@ -33,11 +36,13 @@ h4 {
 h5 {
   font-size: 1.6em;
 }
-h6 {
+h6,
+label {
   font-size: 1.1em;
   font-family: 'Montserrat-Light', sans-serif;
   letter-spacing: .25em;
   text-transform: uppercase;
+  line-height: 1.8em;
 }
 p,
 li,
@@ -46,7 +51,8 @@ a,
 button,
 input {
   font-family: 'Assistant', sans-serif;
-  font-size: 1.6em
+  font-size: 1.6em;
+  line-height: 2.1em;
 }
 
 // font styles
@@ -61,12 +67,60 @@ input {
 }
 
 
-//buttons
-
-.primary {
-  background-color: $primary;
-  border: 2px solid $primary;
-  color: $white;
+//clickable
+a {
   text-decoration: none;
-  font-family: 'Assistant-Bold', sans-serif;
+  font-family: 'Assistant', sans-serif;
+  color: $primary;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.buttonLook {
+    font-family: 'Assistant-Bold', sans-serif;
+    padding: $medPaddding;
+    margin: $smSpacing $medSpacing;
+    white-space: nowrap;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.lrgButton {
+      font-size: 2.0em;
+      padding: $lrgPaddding;
+    }
+
+    &.smButton {
+      font-size: 1.3em;
+      padding: $smPaddding $medPaddding;
+    }
+
+    &.primary {
+      background-color: $primary;
+      border: 2px solid $primary;
+      color: $white;
+
+      &:hover {
+        background-color: $primaryLight;
+        border: 2px solid $primaryLight;
+      }
+    }
+
+    &.secondary {
+      background-color: none;
+      border: 2px solid $primary;
+      color: $primary;
+    }
+
+    &.special {
+      background-color: $secondary;
+      color: $white;
+
+      &:hover {
+        background-color: $secondaryMedium;
+      }
+    }
+  }
 }

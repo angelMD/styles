@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+
+// forms
+
+label {
+  display: block;
+  color: $black;
+}
+
+input[type="text"] {
+  border: 1px solid $neutralDark;
+  @include border-radius($smRadius);
+  padding: $medPaddding;
+  margin-top: $smSpacing;
+
+  &.noLabel {
+    margin-top: none;
+  }
+
+  &.noLabelPush {
+    margin-top: $lrgSpacing;
+    margin-left: $smSpacing;
+  }
+}
