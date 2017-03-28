@@ -6,6 +6,7 @@
 
 body {
   font: 10px 'Assistant', sans-serif;
+  color: $black;
   background: $neutralLight;
 }
 
@@ -36,7 +37,7 @@ h6 {
   font-size: 1.1em;
   font-family: 'Montserrat-Light', sans-serif;
   letter-spacing: .25em;
-  text-transform: uppercase;;
+  text-transform: uppercase;
 }
 p,
 li,
@@ -47,6 +48,18 @@ input {
   font-family: 'Assistant', sans-serif;
   font-size: 1.6em
 }
+
+// font styles
+.header1 {
+  color: $neutralDark;
+}
+.header6 {
+
+  &.light {
+    color: $neutralDark;
+  }
+}
+
 
 //buttons
 
