@@ -1,0 +1,59 @@
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+
+
+
+body {
+  font: 10px 'Assistant', sans-serif;
+  background: $neutralLight;
+}
+
+// fonts
+h1 {
+  font-family: 'Assistant-Light', sans-serif;
+  font-size: 4.1em;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Assistant-Bold', sans-serif;
+}
+h2 {
+  font-size: 3.2em;
+}
+h3 {
+  font-size: 2.4em;
+}
+h4 {
+  font-size: 2.0em;
+}
+h5 {
+  font-size: 1.6em;
+}
+h6 {
+  font-size: 1.1em;
+  font-family: 'Montserrat-Light', sans-serif;
+  letter-spacing: .25em;
+  text-transform: uppercase;;
+}
+p,
+li,
+ol,
+a,
+button,
+input {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.6em
+}
+
+//buttons
+
+.primary {
+  background-color: $primary;
+  border: 2px solid $primary;
+  color: $white;
+  text-decoration: none;
+  font-family: 'Assistant-Bold', sans-serif;
+}
