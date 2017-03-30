@@ -32,6 +32,8 @@
     .square.sucessLight { background-color: #DEF8DF; }
     .square.error { background-color: #FA3058; }
     .square.errorLight { background-color: #FC839B; }
+    .svgWrapper { height: 44px; width: 44px; }
+    path, circle { fill: #A2B3C4; }
 
 
   </style>
@@ -136,11 +138,12 @@
       <div class="square errorLight">
       </div>
     </div>
+    <div>
+      <h3 class="sectionHeader">Icons</h3>
+      <!-- @include "svgs.kit" -->
+    </div>
   </div>
-  <div>
-    <h3 class="sectionHeader">Icons</h3>
-    <!-- @include "svgs.kit" -->
-  </div>
+
   <!-- <script src="js/scripts.js"></script> -->
 </body>
 </html>
