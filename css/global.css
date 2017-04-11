@@ -75,22 +75,22 @@ button[type="button"] {
     cursor: hand; }
   input[type="button"].primary,
   button[type="button"].primary {
-    background-color: #00657D;
-    border: 2px solid #00657D;
+    background-color: #367E8D;
+    border: 2px solid #367E8D;
     color: #fff; }
     input[type="button"].primary:hover,
     button[type="button"].primary:hover {
-      background-color: #44B0BE;
-      border: 2px solid #44B0BE; }
+      background-color: #5CABBB;
+      border: 2px solid #5CABBB; }
   input[type="button"].secondary,
   button[type="button"].secondary {
     background-color: transparent;
-    border: 2px solid #00657D;
-    color: #00657D; }
+    border: 2px solid #367E8D;
+    color: #367E8D; }
     input[type="button"].secondary:hover,
     button[type="button"].secondary:hover {
-      color: #44B0BE;
-      border: 2px solid #44B0BE; }
+      color: #5CABBB;
+      border: 2px solid #5CABBB; }
 
 button[type="button"]:disabled {
   opacity: 40%; }
@@ -127,7 +127,7 @@ h5 {
 h6,
 label {
   font-size: 1.1em;
-  font-family: 'Montserrat-Light', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   letter-spacing: .25em;
   text-transform: uppercase;
   line-height: 2.5em; }
@@ -152,7 +152,7 @@ input {
 a {
   text-decoration: none;
   font-family: 'Assistant', sans-serif;
-  color: #00657D; }
+  color: #367E8D; }
   a:hover {
     text-decoration: underline; }
   a.linkLookSpecial {
@@ -171,19 +171,19 @@ a {
       font-size: 1.3em;
       padding: 0.35em 0.55em; }
     a.buttonLook.primary {
-      background-color: #00657D;
-      border: 2px solid #00657D;
+      background-color: #367E8D;
+      border: 2px solid #367E8D;
       color: #fff; }
       a.buttonLook.primary:hover {
-        background-color: #44B0BE;
-        border: 2px solid #44B0BE; }
+        background-color: #5CABBB;
+        border: 2px solid #5CABBB; }
     a.buttonLook.secondary {
       background-color: none;
-      border: 2px solid #00657D;
-      color: #00657D; }
+      border: 2px solid #367E8D;
+      color: #367E8D; }
       a.buttonLook.secondary:hover {
-        color: #44B0BE;
-        border: 2px solid #44B0BE; }
+        color: #5CABBB;
+        border: 2px solid #5CABBB; }
     a.buttonLook.special {
       background-color: #F4623B;
       color: #fff; }

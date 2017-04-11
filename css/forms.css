@@ -31,22 +31,22 @@ button[type="button"] {
     cursor: hand; }
   input[type="button"].primary,
   button[type="button"].primary {
-    background-color: #00657D;
-    border: 2px solid #00657D;
+    background-color: #367E8D;
+    border: 2px solid #367E8D;
     color: #fff; }
     input[type="button"].primary:hover,
     button[type="button"].primary:hover {
-      background-color: #44B0BE;
-      border: 2px solid #44B0BE; }
+      background-color: #5CABBB;
+      border: 2px solid #5CABBB; }
   input[type="button"].secondary,
   button[type="button"].secondary {
     background-color: transparent;
-    border: 2px solid #00657D;
-    color: #00657D; }
+    border: 2px solid #367E8D;
+    color: #367E8D; }
     input[type="button"].secondary:hover,
     button[type="button"].secondary:hover {
-      color: #44B0BE;
-      border: 2px solid #44B0BE; }
+      color: #5CABBB;
+      border: 2px solid #5CABBB; }
 
 button[type="button"]:disabled {
   opacity: 40%; }
