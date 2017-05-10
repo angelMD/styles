@@ -67,6 +67,12 @@ input {
   }
 }
 
+p {
+  &.large {
+    font-size: 2.0em;
+  }
+}
+
 
 //clickable
 a {
