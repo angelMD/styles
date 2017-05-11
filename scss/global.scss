@@ -13,7 +13,8 @@ body {
 
 // fonts
 h1 {
-  font-family: 'Assistant-ExtraLight', sans-serif;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 200;
   font-size: 4.1em;
   line-height: 1.0em;
 }
@@ -21,7 +22,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Assistant-Bold', sans-serif;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 700;
   line-height: 1.6em;
 }
 h2 {
@@ -39,7 +41,8 @@ h5 {
 h6,
 label {
   font-size: 1.1em;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   letter-spacing: .25em;
   text-transform: uppercase;
   line-height: 2.5em;
@@ -51,9 +54,14 @@ a,
 button,
 input {
   font-family: 'Assistant', sans-serif;
+  font-weight: 400;
   font-size: 1.6em;
   line-height: 1.6em;
   padding-bottom: 1.0em;
+}
+
+button {
+  font-weight: 700;
 }
 
 // font styles
@@ -89,7 +97,8 @@ a {
   }
 
   &.buttonLook {
-    font-family: 'Assistant-Bold', sans-serif;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
     padding: $medPaddding $lrgPaddding;
     margin: $smSpacing $medSpacing $smSpacing 0;
     white-space: nowrap;
