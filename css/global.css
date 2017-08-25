@@ -200,3 +200,6 @@ a {
       color: #fff; }
       a.buttonLook.special:hover {
         background-color: #FB7A57; }
+
+.svgWrapper {
+  margin-bottom: 2rem; }
